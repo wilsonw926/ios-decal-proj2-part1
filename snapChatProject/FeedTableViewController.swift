@@ -17,6 +17,7 @@ class FeedTableViewController: UITableViewController {
         super.viewDidLoad()
         Feed.dataSource = self
         Feed.delegate = self
+        tableView.separatorStyle = .none
     }
     
     override func viewWillAppear(_ animated: Bool) {

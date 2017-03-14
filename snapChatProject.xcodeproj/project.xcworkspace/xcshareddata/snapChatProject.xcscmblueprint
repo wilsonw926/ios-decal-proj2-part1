@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD9B1985510B4AC5989ED1129FC805E784263B73",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D736AA8BE0CBCE1B8EBF5A0C2EC4E84BEAE9706",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "AD9B1985510B4AC5989ED1129FC805E784263B73" : 9223372036854775807,
+    "3D736AA8BE0CBCE1B8EBF5A0C2EC4E84BEAE9706" : 9223372036854775807,
     "EEB9DCBE5260FB3CDD23C6F122BF628517769FEC" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8F29AF68-8B8F-4CE2-BE49-3C26ADB9E32D",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "AD9B1985510B4AC5989ED1129FC805E784263B73" : "ios-decal-proj2-part1\/",
+    "3D736AA8BE0CBCE1B8EBF5A0C2EC4E84BEAE9706" : "ios-decal-proj2-part1\/",
     "EEB9DCBE5260FB3CDD23C6F122BF628517769FEC" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "snapChatProject",
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wilsonw926\/ios-decal-proj2-part1.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD9B1985510B4AC5989ED1129FC805E784263B73"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D736AA8BE0CBCE1B8EBF5A0C2EC4E84BEAE9706"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wilsonw926\/iosDecal.git",

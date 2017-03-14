@@ -18,6 +18,7 @@ class ImagePickerController: UIViewController, UICollectionViewDataSource, UICol
         super.viewDidLoad()
         self.imageCollectionView.collectionViewLayout = ImageFlowLayout.init()
         self.imageCollectionView.backgroundColor = UIColor.lightGray
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="h9b-ww-qVO">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -57,11 +57,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wYC-QR-9eI">
-                                <rect key="frame" x="4" y="89" width="1016" height="1228"/>
+                                <rect key="frame" x="0.0" y="89" width="320" height="342"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="EQS-2O-DNj">
                                     <size key="itemSize" width="236" height="203"/>
@@ -71,7 +71,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="pickImageCell" id="x2i-KI-u6j" customClass="imageCollectionVieCell" customModule="snapChatProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="236" height="203"/>
+                                        <rect key="frame" x="42" y="0.0" width="236" height="203"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="236" height="203"/>
@@ -142,15 +142,15 @@
             <objects>
                 <tableViewController id="7K0-py-xHi" customClass="FeedTableViewController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="sJJ-9e-Ift">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedTableViewCell" id="yju-LM-h5g" customClass="FeedTableViewCell" customModule="snapChatProject" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="1024" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yju-LM-h5g" id="Ddg-5g-5dc">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wilson Wang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3j-Lu-TGg">
@@ -177,7 +177,7 @@
                                     <outlet property="Name" destination="l3j-Lu-TGg" id="qtN-6M-2df"/>
                                     <outlet property="readSquare" destination="akd-Lc-GgC" id="Bcz-UK-3Pe"/>
                                     <outlet property="timeAgo" destination="EgJ-dX-fxq" id="PCK-j2-G1x"/>
-                                    <segue destination="BNV-MC-RMs" kind="show" identifier="feed2BigImage" trigger="accessoryAction" id="z5m-vP-KEv"/>
+                                    <segue destination="BNV-MC-RMs" kind="show" identifier="feed2BigImage" trigger="accessoryAction" animates="NO" id="z5m-vP-KEv"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -204,14 +204,14 @@
                         <viewControllerLayoutGuide type="bottom" id="7Tt-9S-Trq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yOL-Qa-H4f">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZQg-ab-2z1">
-                                <rect key="frame" x="4" y="0.0" width="1016" height="1366"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fve-RS-yPK">
-                                <rect key="frame" x="4" y="0.0" width="1016" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                                 <connections>
                                     <action selector="pressedImage:" destination="BNV-MC-RMs" eventType="touchUpInside" id="CdE-H8-75P"/>
                                 </connections>
@@ -219,14 +219,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ZQg-ab-2z1" firstAttribute="top" secondItem="R1F-we-H4W" secondAttribute="bottom" constant="-64" id="5xO-dM-WT4"/>
+                            <constraint firstItem="ZQg-ab-2z1" firstAttribute="top" secondItem="R1F-we-H4W" secondAttribute="bottom" id="5xO-dM-WT4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZQg-ab-2z1" secondAttribute="trailing" constant="-16" id="6AF-r3-KcS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fve-RS-yPK" secondAttribute="trailing" constant="-16" id="NhG-eO-GA6"/>
                             <constraint firstItem="ZQg-ab-2z1" firstAttribute="leading" secondItem="yOL-Qa-H4f" secondAttribute="leadingMargin" constant="-16" id="PLf-JZ-zCb"/>
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="leading" secondItem="yOL-Qa-H4f" secondAttribute="leadingMargin" constant="-16" id="ZXK-kc-hgI"/>
-                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="Fve-RS-yPK" secondAttribute="bottom" constant="-49" id="a6y-c9-e2K"/>
+                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="Fve-RS-yPK" secondAttribute="bottom" id="a6y-c9-e2K"/>
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="top" secondItem="R1F-we-H4W" secondAttribute="bottom" constant="-64" id="bHX-CR-g6t"/>
-                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" constant="-49" id="dGC-cB-xyD"/>
+                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" id="dGC-cB-xyD"/>
                         </constraints>
                     </view>
                     <connections>
@@ -237,27 +237,27 @@
             </objects>
             <point key="canvasLocation" x="1149.5999999999999" y="33.733133433283363"/>
         </scene>
-        <!--Post Location Controller-->
+        <!--Snapchat 2.0-->
         <scene sceneID="2eb-id-taa">
             <objects>
-                <viewController id="mpD-02-xq7" customClass="PostLocationController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Snapchat 2.0" id="mpD-02-xq7" customClass="PostLocationController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uEB-bV-hdI"/>
                         <viewControllerLayoutGuide type="bottom" id="kT5-Zj-Fvc"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iN0-Ke-7bq">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nKX-ws-heg">
-                                <rect key="frame" x="4" y="0.0" width="1016" height="1229"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="343"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="imageTableViewCell" id="zBM-Cx-nBJ" customClass="ImageTableViewCell" customModule="snapChatProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="1016" height="44"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="imageTableViewCell" id="zBM-Cx-nBJ" customClass="ImageTableViewCell" customModule="snapChatProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zBM-Cx-nBJ" id="Qkq-KM-qS0">
-                                            <rect key="frame" x="0.0" y="0.0" width="1016" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwI-RK-UA9">
@@ -282,7 +282,7 @@
                                 </prototypes>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posting To" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u7Z-LA-PeE">
-                                <rect key="frame" x="20" y="1251" width="108" height="47"/>
+                                <rect key="frame" x="16" y="365" width="108" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="108" id="nYq-Jz-rdy"/>
                                     <constraint firstAttribute="width" secondItem="u7Z-LA-PeE" secondAttribute="height" multiplier="108:47" id="nlU-Fl-N0B"/>
@@ -292,7 +292,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OU-lY-Y3h">
-                                <rect key="frame" x="935" y="1244" width="69" height="60"/>
+                                <rect key="frame" x="235" y="358" width="69" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9OU-lY-Y3h" secondAttribute="height" multiplier="23:20" id="QOu-TN-6Ke"/>
                                 </constraints>
@@ -302,7 +302,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbg-Dp-jVI">
-                                <rect key="frame" x="795" y="1257" width="98" height="34"/>
+                                <rect key="frame" x="130" y="371" width="98" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="RMd-tZ-lTS"/>
                                     <constraint firstAttribute="width" secondItem="Jbg-Dp-jVI" secondAttribute="height" multiplier="49:17" id="jPH-Ob-pgC"/>
@@ -314,7 +314,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9OU-lY-Y3h" firstAttribute="leading" secondItem="Jbg-Dp-jVI" secondAttribute="trailing" constant="42" id="BrU-OD-SXE"/>
+                            <constraint firstItem="9OU-lY-Y3h" firstAttribute="leading" secondItem="Jbg-Dp-jVI" secondAttribute="trailing" constant="7" id="BrU-OD-SXE"/>
                             <constraint firstItem="kT5-Zj-Fvc" firstAttribute="top" secondItem="nKX-ws-heg" secondAttribute="bottom" constant="88" id="NKh-xj-dkP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="nKX-ws-heg" secondAttribute="trailing" constant="-16" id="NwX-Yw-731"/>
                             <constraint firstItem="kT5-Zj-Fvc" firstAttribute="top" secondItem="9OU-lY-Y3h" secondAttribute="bottom" constant="13" id="Ol7-0v-Ay3"/>
