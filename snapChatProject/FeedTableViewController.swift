@@ -72,7 +72,7 @@ class FeedTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "feed2BigImage" {
-                if let dest = segue.destination as? FeedTableViewController {
+                if let dest = segue.destination as? EnlargedImageController {
                     dest.snapToView = snapToView
                 }
             }
