@@ -150,7 +150,7 @@
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yju-LM-h5g" id="Ddg-5g-5dc">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wilson Wang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3j-Lu-TGg">
@@ -198,7 +198,7 @@
         <!--Enlarged Image Controller-->
         <scene sceneID="uzh-Iz-Wp5">
             <objects>
-                <viewController id="BNV-MC-RMs" customClass="EnlargedImageController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="BNV-MC-RMs" customClass="EnlargedImageController" customModule="snapChatProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R1F-we-H4W"/>
                         <viewControllerLayoutGuide type="bottom" id="7Tt-9S-Trq"/>
@@ -208,10 +208,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZQg-ab-2z1">
-                                <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="476"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fve-RS-yPK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <connections>
                                     <action selector="pressedImage:" destination="BNV-MC-RMs" eventType="touchUpInside" id="CdE-H8-75P"/>
                                 </connections>
@@ -226,9 +226,10 @@
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="leading" secondItem="yOL-Qa-H4f" secondAttribute="leadingMargin" constant="-16" id="ZXK-kc-hgI"/>
                             <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="Fve-RS-yPK" secondAttribute="bottom" id="a6y-c9-e2K"/>
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="top" secondItem="R1F-we-H4W" secondAttribute="bottom" constant="-64" id="bHX-CR-g6t"/>
-                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" id="dGC-cB-xyD"/>
+                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" constant="-60" id="dGC-cB-xyD"/>
                         </constraints>
                     </view>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="enlargedImage" destination="ZQg-ab-2z1" id="Q13-v6-cmA"/>
                     </connections>
