@@ -208,7 +208,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZQg-ab-2z1">
-                                <rect key="frame" x="0.0" y="64" width="320" height="476"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fve-RS-yPK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
@@ -226,7 +226,7 @@
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="leading" secondItem="yOL-Qa-H4f" secondAttribute="leadingMargin" constant="-16" id="ZXK-kc-hgI"/>
                             <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="Fve-RS-yPK" secondAttribute="bottom" id="a6y-c9-e2K"/>
                             <constraint firstItem="Fve-RS-yPK" firstAttribute="top" secondItem="R1F-we-H4W" secondAttribute="bottom" constant="-64" id="bHX-CR-g6t"/>
-                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" constant="-60" id="dGC-cB-xyD"/>
+                            <constraint firstItem="7Tt-9S-Trq" firstAttribute="top" secondItem="ZQg-ab-2z1" secondAttribute="bottom" id="dGC-cB-xyD"/>
                         </constraints>
                     </view>
                     <nil key="simulatedBottomBarMetrics"/>
